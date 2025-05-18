@@ -1,0 +1,32 @@
+.gallery{
+    display: inline-block;
+    border: 4px solid ;
+    padding: 5px;
+    margin: 10px;
+}
+.gallery .name{
+    text-align: center;
+    padding: 5px;
+    font-family: cursive;
+    font-size: large;
+    color: rgb(250, 215, 215);
+}
+.gallery:hover{
+    border: 4px solid rgb(29, 4, 255);
+}
+#img {
+  width: 400px;
+  height: 400px;
+  transition: all 0.1s ease; 
+}
+
+#img:hover {
+  width: 450px;
+  height: 450px;
+}
+body {
+  background-image: url('images/avengers-endgame-logo-minimalist-uhdpaper.com-8K-70.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
