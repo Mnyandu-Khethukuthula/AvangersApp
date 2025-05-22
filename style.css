@@ -17,7 +17,7 @@
 #img {
   width: 400px;
   height: 400px;
-  transition: all 0.1s ease; 
+  transition: all 0.2s ease; 
 }
 
 #img:hover {
@@ -29,4 +29,16 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+nav{
+  padding: 20px;
+  text-align: start;
+}
+nav a{
+  text-decoration: none;
+  font-family: cursive;
+  font-size: large;
+  padding: 20px;
+  margin-left: -25px;
+  color: #000000;
 }
